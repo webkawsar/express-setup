@@ -11,7 +11,7 @@ const app = express();
 const connectDB = require('./config/db');
 
 // Database Connection
-connectDB();
+// connectDB();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
